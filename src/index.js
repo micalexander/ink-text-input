@@ -118,7 +118,7 @@ class TextInput extends PureComponent {
 			return;
 		}
 
-		let cursorOffset = originalCursorOffset;
+		let cursorOffset = originalValue.length || originalCursorOffset;
 		let value = originalValue;
 		let cursorWidth = 0;
 
