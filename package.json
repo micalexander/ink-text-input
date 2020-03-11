@@ -37,6 +37,7 @@
 		"query"
 	],
 	"dependencies": {
+		"@ava/babel-preset-stage-4": "^4.0.0",
 		"chalk": "^3.0.0",
 		"prop-types": "^15.5.10"
 	},
